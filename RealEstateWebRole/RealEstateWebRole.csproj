@@ -80,20 +80,22 @@
     <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AjaxControlToolkit, Version=4.1.51116.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+    <Reference Include="AjaxControlToolkit, Version=4.1.60501.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\AjaxControlToolkit.4.1.51116\lib\40\AjaxControlToolkit.dll</HintPath>
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60501\lib\40\AjaxControlToolkit.dll</HintPath>
     </Reference>
-    <Reference Include="AntiXSSLibrary">
-      <HintPath>packages\AjaxControlToolkit.4.1.51116\lib\40\SanitizerProviders\AntiXSSLibrary.dll</HintPath>
+    <Reference Include="AntiXSSLibrary, Version=4.2.0.0, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60501\lib\40\SanitizerProviders\AntiXSSLibrary.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK, Version=1.4.9.0, Culture=neutral, PublicKeyToken=cd2d24cd2bace800, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Program Files\AWS SDK for .NET\bin\AWSSDK.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="HtmlSanitizationLibrary">
-      <HintPath>packages\AjaxControlToolkit.4.1.51116\lib\40\SanitizerProviders\HtmlSanitizationLibrary.dll</HintPath>
+    <Reference Include="HtmlSanitizationLibrary, Version=4.2.0.0, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60501\lib\40\SanitizerProviders\HtmlSanitizationLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ApplicationServer.Http">
       <HintPath>packages\WebApi.0.6.0\lib\40-Full\Microsoft.ApplicationServer.Http.dll</HintPath>
@@ -126,8 +128,8 @@
     <Reference Include="RealEstateLibraries">
       <HintPath>..\..\Users\Abraham\Documents\Visual Studio 2010\Projects\RealEstateLibraries\RealEstateLibraries\bin\Debug\RealEstateLibraries.dll</HintPath>
     </Reference>
-    <Reference Include="SanitizerProviders">
-      <HintPath>packages\AjaxControlToolkit.4.1.51116\lib\40\SanitizerProviders\SanitizerProviders.dll</HintPath>
+    <Reference Include="SanitizerProviders, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60501\lib\40\SanitizerProviders\SanitizerProviders.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition">
@@ -187,7 +189,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="bin\AWSSDK.xml" />
+    <Content Include="bin\bin\AWSSDK.dll" />
     <Content Include="bin\bin\Microsoft.Json.dll" />
+    <Content Include="bin\bin\RealEstateLibraries.dll" />
+    <Content Include="bin\bin\System.Web.Providers.dll" />
+    <Content Include="bin\bin\Telerik.Web.UI.dll" />
     <Content Include="bin\cs\AjaxControlToolkit.resources.dll" />
     <Content Include="bin\de\AjaxControlToolkit.resources.dll" />
     <Content Include="bin\EntityDataModel.dll" />
@@ -205,6 +211,7 @@
     <Content Include="bin\Microsoft.Json.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="bin\Microsoft.Json.xml" />
     <Content Include="bin\Microsoft.Net.Http.Formatting.dll" />
     <Content Include="bin\Microsoft.Net.Http.Formatting.OData.dll" />
     <Content Include="bin\Microsoft.Runtime.Serialization.Internal.dll" />
@@ -215,7 +222,6 @@
     <Content Include="bin\RealEstateLibraries.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="bin\RealEstateLibraries.pdb" />
     <Content Include="bin\RealEstateWebRole.dll" />
     <Content Include="bin\RealEstateWebRole.pdb" />
     <Content Include="bin\ru\AjaxControlToolkit.resources.dll" />
@@ -230,6 +236,9 @@
     <Content Include="bin\Telerik.Web.UI.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="bin\tr-TR\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\zh-CHS\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\zh-CHT\AjaxControlToolkit.resources.dll" />
     <Content Include="Controls\SearchControlsFooterzm.ascx" />
     <Content Include="Controls\SearchMapzm.ascx" />
     <Content Include="Controls\SearchControlsRentFooterzm.ascx" />
@@ -943,11 +952,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="aspnet_client\system_web\4_0_30319\" />
-    <Folder Include="bin\tr-TR\" />
-    <Folder Include="bin\x64\Debug\" />
-    <Folder Include="bin\x64\Release\" />
-    <Folder Include="bin\zh-CHS\" />
-    <Folder Include="bin\zh-CHT\" />
     <Folder Include="obj\" />
   </ItemGroup>
   <ItemGroup>
