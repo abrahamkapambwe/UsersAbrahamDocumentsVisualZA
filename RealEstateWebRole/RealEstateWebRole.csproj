@@ -90,6 +90,7 @@
     <Reference Include="AWSSDK, Version=1.4.9.0, Culture=neutral, PublicKeyToken=cd2d24cd2bace800, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Program Files\AWS SDK for .NET\bin\AWSSDK.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="HtmlSanitizationLibrary">
       <HintPath>packages\AjaxControlToolkit.4.1.51116\lib\40\SanitizerProviders\HtmlSanitizationLibrary.dll</HintPath>
@@ -182,6 +183,10 @@
     </Content>
     <Content Include="bin\AntiXSSLibrary.dll" />
     <Content Include="bin\ar\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\AWSSDK.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\AWSSDK.xml" />
     <Content Include="bin\bin\Microsoft.Json.dll" />
     <Content Include="bin\cs\AjaxControlToolkit.resources.dll" />
     <Content Include="bin\de\AjaxControlToolkit.resources.dll" />
@@ -207,6 +212,10 @@
     <Content Include="bin\Microsoft.ServiceModel.Internal.dll" />
     <Content Include="bin\nl\AjaxControlToolkit.resources.dll" />
     <Content Include="bin\pt\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\RealEstateLibraries.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\RealEstateLibraries.pdb" />
     <Content Include="bin\RealEstateWebRole.dll" />
     <Content Include="bin\RealEstateWebRole.pdb" />
     <Content Include="bin\ru\AjaxControlToolkit.resources.dll" />
@@ -221,9 +230,6 @@
     <Content Include="bin\Telerik.Web.UI.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="bin\tr-TR\AjaxControlToolkit.resources.dll" />
-    <Content Include="bin\zh-CHS\AjaxControlToolkit.resources.dll" />
-    <Content Include="bin\zh-CHT\AjaxControlToolkit.resources.dll" />
     <Content Include="Controls\SearchControlsFooterzm.ascx" />
     <Content Include="Controls\SearchMapzm.ascx" />
     <Content Include="Controls\SearchControlsRentFooterzm.ascx" />
@@ -937,8 +943,11 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="aspnet_client\system_web\4_0_30319\" />
+    <Folder Include="bin\tr-TR\" />
     <Folder Include="bin\x64\Debug\" />
     <Folder Include="bin\x64\Release\" />
+    <Folder Include="bin\zh-CHS\" />
+    <Folder Include="bin\zh-CHT\" />
     <Folder Include="obj\" />
   </ItemGroup>
   <ItemGroup>
