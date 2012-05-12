@@ -842,7 +842,7 @@ namespace RealEstateWebRole.Account
             {
                 if (string.IsNullOrEmpty(hdfLatitude.Value) && string.IsNullOrEmpty(hdfLongitude.Value))
                 {
-                    address = txtStreetnumber.Text + "+" + txtStreetname.Text + "+" + txtSuburb.Text + "+" + ddlProvince.SelectedValue + "+" + txtCity.Text + "+" + "ke";
+                    address = txtStreetnumber.Text + "+" + txtStreetname.Text + "+" + txtSuburb.Text + "+" + ddlProvince.SelectedValue + "+" + txtCity.Text + "+" + "za";
                     WebRequest request = WebRequest.Create("http://maps.googleapis.com/maps/api/geocode/json?address=" + address + " &sensor=false");
                     WebResponse response = request.GetResponse();
                     Stream stream = response.GetResponseStream();

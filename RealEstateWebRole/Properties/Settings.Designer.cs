@@ -25,7 +25,7 @@ namespace RealEstateWebRole.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("realestatewebrolekenya")]
+        [global::System.Configuration.DefaultSettingValueAttribute("realestatewebroleSouth africa")]
         public string AWSMembershipDomain {
             get {
                 return ((string)(this["AWSMembershipDomain"]));

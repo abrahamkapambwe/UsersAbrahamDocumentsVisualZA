@@ -1127,7 +1127,7 @@
                                                 Thank you very much for publishing your listing on our site.Your listing will be
                                                 live in 24hrs.</p>
                                             <p>
-                                                If you want the listing to appear on <a href="http://newske.apphb.com" target="_blank">Newskenya</a>&nbsp;&nbsp;
+                                                If you want the listing to appear on <a href="http://newske.apphb.com" target="_blank">NewsSouth africa</a>&nbsp;&nbsp;
                                                 <asp:LinkButton runat="server" ID="lkbPartner" OnClick="lkb_Partner">here</asp:LinkButton>
                                             </p>
                                         </div>

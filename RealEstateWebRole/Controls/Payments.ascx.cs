@@ -106,7 +106,7 @@ namespace RealEstateWebRole.Controls
 
                     builder.Append(user.Province);
                     builder.Append(";");
-                    builder.Append("Kenya");
+                    builder.Append("South africa");
                     builder.Append(";");
                     builder.Append(lblAmount.Text.Replace("R", ""));
 

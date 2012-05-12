@@ -1125,7 +1125,7 @@
                                                 Thank you very much for publishing your listing on our site.Your listing will be
                                                 live in 24hrs.</p>
                                             <p>
-                                                If you want the listing to appear on Newkenya and Safarike.apphb
+                                                If you want the listing to appear on NewSouth africa and Safarike.apphb
                                                 <asp:LinkButton runat="server" ID="lkbPartner" OnClick="lkb_Partner">here</asp:LinkButton>
                                             </p>
                                         </div>

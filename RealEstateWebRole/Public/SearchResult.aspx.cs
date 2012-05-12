@@ -82,12 +82,12 @@ namespace RealEstateWebRole
             {
                 HtmlMeta htmlmeta = new HtmlMeta();
                 htmlmeta.Name = "Keywords";
-                htmlmeta.Content = "Property in Kenya,property kenya,real estate in kanya,kenyan real estate,real estate agent in kenya,proprty listing site in kenya,plots for sale,most popular property site in kenya";
+                htmlmeta.Content = "Property in South africa,property South africa,real estate in kanya,South african real estate,real estate agent in South africa,proprty listing site in South africa,plots for sale,most popular property site in South africa";
                 Page.Header.Controls.Add(htmlmeta);
 
                 HtmlMeta htmlmeta2 = new HtmlMeta();
                 htmlmeta2.Name = "keywords2";
-                htmlmeta2.Content = "Nation daily,nation news paper kenya";
+                htmlmeta2.Content = "Nation daily,nation news paper South africa";
                 Page.Header.Controls.Add(htmlmeta2);
                 if (Request.QueryString["SearchTerm"] != null && Request.QueryString["SearchType"] != null)
                 {
@@ -167,11 +167,11 @@ namespace RealEstateWebRole
                             list.Value = i.ToString();
                             if (i.ToString() == "10000000")
                             {
-                                list.Text = "Ksh " + i.ToString() + "+";
+                                list.Text = "R " + i.ToString() + "+";
                             }
                             else
                             {
-                                list.Text = "Ksh " + i.ToString();
+                                list.Text = "R " + i.ToString();
                             }
                             ddlMinimum.Items.Add(list);
                             ddlMaximum.Items.Add(list);
@@ -187,11 +187,11 @@ namespace RealEstateWebRole
                             list.Value = i.ToString();
                             if (i.ToString() == "20000")
                             {
-                                list.Text = "Ksh " + i.ToString() + "+";
+                                list.Text = "R " + i.ToString() + "+";
                             }
                             else
                             {
-                                list.Text = "Ksh " + i.ToString();
+                                list.Text = "R " + i.ToString();
                             }
                             ddlMinimum.Items.Add(list);
                             ddlMaximum.Items.Add(list);

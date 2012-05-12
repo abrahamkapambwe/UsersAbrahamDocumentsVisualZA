@@ -211,7 +211,6 @@
     <Content Include="bin\Microsoft.Json.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="bin\Microsoft.Json.xml" />
     <Content Include="bin\Microsoft.Net.Http.Formatting.dll" />
     <Content Include="bin\Microsoft.Net.Http.Formatting.OData.dll" />
     <Content Include="bin\Microsoft.Runtime.Serialization.Internal.dll" />

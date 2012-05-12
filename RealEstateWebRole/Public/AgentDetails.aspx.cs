@@ -26,7 +26,7 @@ namespace RealEstateWebRole.Public
                 Page.Title = "Agent Details Page";
                 HtmlMeta htmlmeta = new HtmlMeta();
                 htmlmeta.Name = "Keywords";
-                htmlmeta.Content = "Property in Kenya,property kenya,real estate in kanya,kenyan real estate,real estate agent in kenya,proprty listing site in kenya,plots for sale,most popular property site in kenya";
+                htmlmeta.Content = "Property in south africa,property south africa,real estate in kanya,south african real estate,real estate agent in south africa,proprty listing site in south africa,plots for sale,most popular property site in south africa";
                 Page.Header.Controls.Add(htmlmeta);
 
                
@@ -57,7 +57,7 @@ namespace RealEstateWebRole.Public
                     agentmeta = estate.AgentAddress + ", " + estate.BusinessName + ", " + estate.City;
 
                     IEnumerable<PropertyTableAzure> propertyTable = Search.GetPropertyTablesFromCache(usertable.UserName);
-                    address = estate.AgentAddress + "+" + estate.Road + "+" + estate.City + "+" + estate.State_Prov + "+ ke";
+                    address = estate.AgentAddress + "+" + estate.Road + "+" + estate.City + "+" + estate.State_Prov + "+ za";
                     WebRequest request = WebRequest.Create("http://maps.googleapis.com/maps/api/geocode/json?address=" + address + " &sensor=false");
                     WebResponse response = request.GetResponse();
                     Stream stream = response.GetResponseStream();

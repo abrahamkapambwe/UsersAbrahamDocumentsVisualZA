@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="AWSMembershipDomain" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">realestatewebrolekenya</Value>
+      <Value Profile="(Default)">realestatewebroleSouth africa</Value>
     </Setting>
   </Settings>
 </SettingsFile>
