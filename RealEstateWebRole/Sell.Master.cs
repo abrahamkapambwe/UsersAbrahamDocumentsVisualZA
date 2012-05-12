@@ -22,5 +22,19 @@ namespace RealEstateWebRole
             
            
         }
+        public void Login_out(object sender, EventArgs e)
+        {
+
+
+            try
+            {
+                FormsAuthentication.SignOut();
+            }
+            finally
+            {
+
+            }
+
+        }
     }
 }

@@ -13,18 +13,11 @@ C:\UsersAbrahamDocumentsVisual\RealEstateWebRole\bin\bin\RealEstateLibraries.dll
 C:\UsersAbrahamDocumentsVisual\RealEstateWebRole\bin\bin\RealEstateLibraries.pdb
 C:\UsersAbrahamDocumentsVisual\RealEstateWebRole\obj\Release\RealEstateWebRole.csprojResolveAssemblyReference.cache
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\AWSSDK.dll
-C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\Microsoft.Json.dll
-C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\RealEstateLibraries.dll
-C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\System.Web.Providers.dll
-C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\Telerik.Web.UI.dll
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\RealEstateWebRole.dll
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\RealEstateWebRole.pdb
-C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\AjaxControlToolkit.dll
-C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\AWSSDK.dll
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\Microsoft.Json.dll
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\EntityDataModel.dll
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\AWSSDK.xml
-C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\Microsoft.Json.xml
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\ar\AjaxControlToolkit.resources.dll
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\cs\AjaxControlToolkit.resources.dll
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\de\AjaxControlToolkit.resources.dll
@@ -45,3 +38,6 @@ C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\obj\Release\RealEstateWebRole
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\obj\Release\RealEstateWebRole.dll
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\obj\Release\RealEstateWebRole.pdb
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\AjaxControlToolkit.dll
+C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\RealEstateLibraries.dll
+C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\System.Web.Providers.dll
+C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\Telerik.Web.UI.dll
