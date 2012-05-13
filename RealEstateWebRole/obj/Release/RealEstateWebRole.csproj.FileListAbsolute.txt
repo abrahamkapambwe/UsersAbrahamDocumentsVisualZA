@@ -43,3 +43,8 @@ C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\zh-CHS\AjaxControlToolkit
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\zh-CHT\AjaxControlToolkit.resources.dll
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\obj\Release\RealEstateWebRole.dll
 C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\obj\Release\RealEstateWebRole.pdb
+C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\EntityDataModel.dll
+C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\Microsoft.Json.dll
+C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\RealEstateLibraries.dll
+C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\System.Web.Providers.dll
+C:\UsersAbrahamDocumentsVisualZA\RealEstateWebRole\bin\bin\Telerik.Web.UI.dll
