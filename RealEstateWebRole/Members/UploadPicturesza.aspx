@@ -1116,7 +1116,7 @@
                                                 Property Pictures</div>
                                             <br />
                                             <div>
-                                                <iframe id="propertypictures" runat="server" width="600px" height="400px" frameborder="0"
+                                                <iframe id="propertypictures" runat="server" width="600px" height="700px" frameborder="0"
                                                     scrolling="no"></iframe>
                                             </div>
                                             <div style="margin-top: 10px">
