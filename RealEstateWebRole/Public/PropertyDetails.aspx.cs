@@ -117,8 +117,8 @@ namespace RealEstateWebRole.Public
                     }
                     if (property.PriceTableAzure != null)
                     {
-                        lblPrice.Text = "Kshs" + Convert.ToString(property.PriceTableAzure.MonthlyRental);
-                        lblPrice2.Text = "Kshs " + Convert.ToString(property.PriceTableAzure.MonthlyRental);
+                        lblPrice.Text = "R " + Convert.ToString(property.PriceTableAzure.MonthlyRental);
+                        lblPrice2.Text = "R " + Convert.ToString(property.PriceTableAzure.MonthlyRental);
                         lblDescription.Text = Convert.ToString(property.PriceTableAzure.Description);
                         lblPriceDialog.Text = Convert.ToString(property.PriceTableAzure.MonthlyRental);
                     }

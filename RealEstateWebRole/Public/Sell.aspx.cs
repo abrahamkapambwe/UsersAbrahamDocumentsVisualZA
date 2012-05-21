@@ -62,8 +62,8 @@ namespace RealEstateWebRole.Public
                 }
 
                 lblPropertyTypeArea.Text = CheckContainHomeType(table.PriceTableAzure.Attributes) + " " + table.PropertyType + " in " + table.City;
-                sellmetaTag = lblPropertyTypeArea.Text + " at " + "Kshs" + table.PriceTableAzure.MonthlyRental + ",";
-                lblPrice.Text = "Kshs " + table.PriceTableAzure.MonthlyRental;
+                sellmetaTag = lblPropertyTypeArea.Text + " at " + "R " + table.PriceTableAzure.MonthlyRental + ",";
+                lblPrice.Text = "R " + table.PriceTableAzure.MonthlyRental;
                 int hour = (DateTime.Now - table.Added).Hours;
                 //lblTimeAdded.Text = "Added " + hour + "hours ago";
             }

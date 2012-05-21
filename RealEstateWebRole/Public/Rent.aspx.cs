@@ -77,9 +77,9 @@ namespace RealEstateWebRole.Public
                     //imageProperty.NavigateUrl = "../Public/SearchResult.aspx?SearchTerm=" + table.Province + "&SearchType=2&City=" + table.City;
                 }
              
-                lblPrice.Text = "Kshs " + table.PriceTableAzure.MonthlyRental;
+                lblPrice.Text = "R " + table.PriceTableAzure.MonthlyRental;
                 lblPropertyTypeArea.Text = CheckContainHomeType(table.PriceTableAzure.Attributes) + " " + table.PropertyType + " in " + table.City;
-                sellmetaTag = lblPropertyTypeArea.Text + " at " + "Kshs" + table.PriceTableAzure.MonthlyRental + ",";
+                sellmetaTag = lblPropertyTypeArea.Text + " at " + "R " + table.PriceTableAzure.MonthlyRental + ",";
                 int hour = (DateTime.Now - table.Added).Hours;
                 lblTimeAdded.Text = "Added " + hour + "hours ago";
             }
