@@ -48,7 +48,9 @@ namespace RealEstateWebRole.Public
             {
                 PropertyTableAzure table = (PropertyTableAzure)e.Item.DataItem;
                 ListViewDataItem item = (ListViewDataItem)e.Item;
-                HyperLink imageProperty = (HyperLink)item.FindControl("imgFeaturedProperty");
+           
+                HtmlAnchor imageProperty = (HtmlAnchor)item.FindControl("imgFeaturedProperty");
+                HtmlImage imgFeature = (HtmlImage)item.FindControl("imgfeature");
                 Label lblPropertyTypeArea = (Label)item.FindControl("lblPropertyTypeArea");
                 Label lblPrice = (Label)item.FindControl("lblPropertyPrice");
                 Label lblTimeAdded = (Label)item.FindControl("lblTimeAdded");
@@ -56,8 +58,9 @@ namespace RealEstateWebRole.Public
                 {
                     var imgUrl = (from url in table.ImageUrlAzures
                                   select url).First();
-                    imageProperty.ImageUrl = imgUrl.thumbnailblob;
-                    imageProperty.NavigateUrl = "~/Public/PropertyDetails.aspx?PropertyID=" + table.PropertyID;
+                    imgFeature.Src = imgUrl.thumbnailblob;
+                    imgFeature.Alt = imgUrl.thumbnailblob;
+                    imageProperty.HRef= "~/Public/PropertyDetails.aspx?PropertyID=" + table.PropertyID;
                     //imageProperty.NavigateUrl = "../Public/SearchResult.aspx?SearchTerm=" + table.Province + "&SearchType=1&City=" + table.City;
                 }
 

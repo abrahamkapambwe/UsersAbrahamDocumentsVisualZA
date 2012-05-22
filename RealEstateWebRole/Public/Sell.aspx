@@ -37,7 +37,8 @@
                             <div class="sellfeatureitem">
                                 <div>
                                     <div>
-                                        <asp:HyperLink runat="server" ID="imgFeaturedProperty" />
+                                        <a runat="server" id="imgFeaturedProperty">
+                                            <img runat="server" id="imgfeature" width="150" height="125" /></a>
                                     </div>
                                     <div style="font-weight: bolder; font-size: 13px; height: 30px; line-height: normal;
                                         margin-top: 3px">
